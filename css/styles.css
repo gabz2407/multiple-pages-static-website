@@ -1,0 +1,19 @@
+body {
+  background-color: rgba(54, 126, 171, 0.499);
+}
+
+.data {
+  background-color: white;
+  width: 800px;
+  margin: 70px auto;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.input-radio {
+  margin-bottom: 25px;
+}

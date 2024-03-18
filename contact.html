@@ -13,19 +13,30 @@
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
-    <h1>Contact us</h1>
+    <div class="data">
+      <div class="container">
+        <h1>Contact us</h1>
 
-    <div>
-      <p>Do you like croissants?</p>
-      <input type="radio" id="yes" name="croissant" />
-      <label value="yes">Yes</label>
-      <input type="radio" id="sure" name="croissant" />
-      <label value="sure">Sure</label>
-    </div>
+        <div class="input-radio">
+          <p>Do you like croissants?</p>
+          <input type="radio" id="yes" name="croissant" />
+          <label value="yes">Yes</label>
+          <input type="radio" id="sure" name="croissant" />
+          <label value="sure">Sure</label>
+        </div>
 
-    <div>
-      <a href="/">Homepage</a>
-      <a href="/photo.html">Photo</a>
+        <p>
+          If so, please contact us through email to get your croissant:
+          <a href="mailto:croissant@croissant.com" class="d-block"
+            >croissant@croissant.com</a
+          >
+        </p>
+
+        <div class="d-flex justify-content-center pb-4">
+          <a href="/" class="me-3 btn btn-primary">Homepage</a>
+          <a href="/photo.html" class="me-3 btn btn-primary">Photo</a>
+        </div>
+      </div>
     </div>
   </body>
 </html>

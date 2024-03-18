@@ -13,12 +13,20 @@
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
-    <h1>Photo</h1>
-    <p>This is some photo of a croissant</p>
-    <img src="/images/croissant.jpeg" alt="Image of a croissant" />
-    <div>
-      <a href="/">Homepage</a>
-      <a href="/contact.html">Contact</a>
+    <div class="data">
+      <div class="container">
+        <h1>Photo</h1>
+        <p class="text-center">This is some photo of a croissant</p>
+        <img
+          src="/images/croissant.jpeg"
+          alt="Image of a croissant"
+          class="img-fluid rounded mx-auto d-block"
+        />
+        <div class="d-flex justify-content-center pb-4 mt-5">
+          <a href="/" class="me-3 btn btn-primary">Homepage</a>
+          <a href="/contact.html" class="me-3 btn btn-primary">Contact</a>
+        </div>
+      </div>
     </div>
   </body>
 </html>
